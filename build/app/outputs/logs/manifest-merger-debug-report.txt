@@ -1,0 +1,151 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/main/AndroidManifest.xml:3:4-33:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/chenming/.gradle/caches/transforms-3/5c7b3164619702b71f29c8858c16f64e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/chenming/.gradle/caches/transforms-3/5c7b3164619702b71f29c8858c16f64e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.7.0] /Users/chenming/.gradle/caches/transforms-3/e83615d88ae8279d6d4f60e8d9b34c9b/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/chenming/.gradle/caches/transforms-3/e83615d88ae8279d6d4f60e8d9b34c9b/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/chenming/.gradle/caches/transforms-3/6919a6528de74a5adbe0524d511e0986/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/chenming/.gradle/caches/transforms-3/6919a6528de74a5adbe0524d511e0986/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/chenming/.gradle/caches/transforms-3/e83615d88ae8279d6d4f60e8d9b34c9b/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:name
+		INJECTED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from [:video_player_android] /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/build/video_player_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/chenming/.gradle/caches/transforms-3/b357f152d61b30a47cdae7afe36d4ee9/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/chenming/.gradle/caches/transforms-3/5c7b3164619702b71f29c8858c16f64e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.0] /Users/chenming/.gradle/caches/transforms-3/7fb68a1df993cdb2cdc9ca224e7f1b59/transformed/jetified-exoplayer-hls-2.18.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.0] /Users/chenming/.gradle/caches/transforms-3/96e6d61d468ba8d34feef3a117bb89c4/transformed/jetified-exoplayer-dash-2.18.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.0] /Users/chenming/.gradle/caches/transforms-3/2206bb9f4c45eb1a84e94c584e3835b5/transformed/jetified-exoplayer-smoothstreaming-2.18.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.0] /Users/chenming/.gradle/caches/transforms-3/0213578322120146596e60129df937cd/transformed/jetified-exoplayer-core-2.18.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/chenming/.gradle/caches/transforms-3/f0c20ec8b5c572997e3ff433feebb5eb/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/chenming/.gradle/caches/transforms-3/8ecfad0191bb8088eb1f606ffdeac1fc/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/chenming/.gradle/caches/transforms-3/028b2bcc8a64af9cd5aaaf0cd37ec7e6/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/chenming/.gradle/caches/transforms-3/468587bb8c4b8e7e79f8f81b81abf701/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/chenming/.gradle/caches/transforms-3/fcf5bb8004e23341693a62e75ee8ca90/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] /Users/chenming/.gradle/caches/transforms-3/e83615d88ae8279d6d4f60e8d9b34c9b/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/chenming/.gradle/caches/transforms-3/f70f0f5a09e852e42abd7a0de3942810/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/chenming/.gradle/caches/transforms-3/9be31513e4fb6e28ad5ed2745308d42c/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/chenming/.gradle/caches/transforms-3/ff77f89efc09889ef4b32b54b6d7eb01/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/chenming/.gradle/caches/transforms-3/58817df185b1507fdc1b962bd53b95fe/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/chenming/.gradle/caches/transforms-3/3b45348caf8d72fc8d7626a0db9119f7/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.0] /Users/chenming/.gradle/caches/transforms-3/5688d8216807c714138b549c9bc51b0a/transformed/jetified-exoplayer-datasource-2.18.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.0] /Users/chenming/.gradle/caches/transforms-3/0d6a39a91e3cf1dcf71a4b7242583d40/transformed/jetified-exoplayer-extractor-2.18.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.0] /Users/chenming/.gradle/caches/transforms-3/f7161059ce100327b56977d36b5f7f3d/transformed/jetified-exoplayer-decoder-2.18.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.0] /Users/chenming/.gradle/caches/transforms-3/10f1beabbd69076df6b21e310d8b7539/transformed/jetified-exoplayer-database-2.18.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.0] /Users/chenming/.gradle/caches/transforms-3/46edb6813ccecf06b50107249262d845/transformed/jetified-exoplayer-common-2.18.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/chenming/.gradle/caches/transforms-3/6919a6528de74a5adbe0524d511e0986/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/chenming/.gradle/caches/transforms-3/048641c8c88a81b244915f8353786142/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/chenming/.gradle/caches/transforms-3/5af79c76ae29278de8dbb0803eeb785c/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/chenming/.gradle/caches/transforms-3/f273c064dc784f3a3428c93f9aa59c26/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/main/AndroidManifest.xml:2:5-42
+		INJECTED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/main/AndroidManifest.xml
+MERGED from [:video_player_android] /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/build/video_player_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:video_player_android] /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/build/video_player_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/chenming/.gradle/caches/transforms-3/b357f152d61b30a47cdae7afe36d4ee9/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/chenming/.gradle/caches/transforms-3/b357f152d61b30a47cdae7afe36d4ee9/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/chenming/.gradle/caches/transforms-3/5c7b3164619702b71f29c8858c16f64e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/chenming/.gradle/caches/transforms-3/5c7b3164619702b71f29c8858c16f64e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.0] /Users/chenming/.gradle/caches/transforms-3/7fb68a1df993cdb2cdc9ca224e7f1b59/transformed/jetified-exoplayer-hls-2.18.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.0] /Users/chenming/.gradle/caches/transforms-3/7fb68a1df993cdb2cdc9ca224e7f1b59/transformed/jetified-exoplayer-hls-2.18.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.0] /Users/chenming/.gradle/caches/transforms-3/96e6d61d468ba8d34feef3a117bb89c4/transformed/jetified-exoplayer-dash-2.18.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.0] /Users/chenming/.gradle/caches/transforms-3/96e6d61d468ba8d34feef3a117bb89c4/transformed/jetified-exoplayer-dash-2.18.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.0] /Users/chenming/.gradle/caches/transforms-3/2206bb9f4c45eb1a84e94c584e3835b5/transformed/jetified-exoplayer-smoothstreaming-2.18.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.0] /Users/chenming/.gradle/caches/transforms-3/2206bb9f4c45eb1a84e94c584e3835b5/transformed/jetified-exoplayer-smoothstreaming-2.18.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.0] /Users/chenming/.gradle/caches/transforms-3/0213578322120146596e60129df937cd/transformed/jetified-exoplayer-core-2.18.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.0] /Users/chenming/.gradle/caches/transforms-3/0213578322120146596e60129df937cd/transformed/jetified-exoplayer-core-2.18.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/chenming/.gradle/caches/transforms-3/f0c20ec8b5c572997e3ff433feebb5eb/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/chenming/.gradle/caches/transforms-3/f0c20ec8b5c572997e3ff433feebb5eb/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/chenming/.gradle/caches/transforms-3/8ecfad0191bb8088eb1f606ffdeac1fc/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/chenming/.gradle/caches/transforms-3/8ecfad0191bb8088eb1f606ffdeac1fc/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/chenming/.gradle/caches/transforms-3/028b2bcc8a64af9cd5aaaf0cd37ec7e6/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/chenming/.gradle/caches/transforms-3/028b2bcc8a64af9cd5aaaf0cd37ec7e6/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/chenming/.gradle/caches/transforms-3/468587bb8c4b8e7e79f8f81b81abf701/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/chenming/.gradle/caches/transforms-3/468587bb8c4b8e7e79f8f81b81abf701/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/chenming/.gradle/caches/transforms-3/fcf5bb8004e23341693a62e75ee8ca90/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/chenming/.gradle/caches/transforms-3/fcf5bb8004e23341693a62e75ee8ca90/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] /Users/chenming/.gradle/caches/transforms-3/e83615d88ae8279d6d4f60e8d9b34c9b/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/chenming/.gradle/caches/transforms-3/e83615d88ae8279d6d4f60e8d9b34c9b/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/chenming/.gradle/caches/transforms-3/f70f0f5a09e852e42abd7a0de3942810/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/chenming/.gradle/caches/transforms-3/f70f0f5a09e852e42abd7a0de3942810/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/chenming/.gradle/caches/transforms-3/9be31513e4fb6e28ad5ed2745308d42c/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/chenming/.gradle/caches/transforms-3/9be31513e4fb6e28ad5ed2745308d42c/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/chenming/.gradle/caches/transforms-3/ff77f89efc09889ef4b32b54b6d7eb01/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/chenming/.gradle/caches/transforms-3/ff77f89efc09889ef4b32b54b6d7eb01/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/chenming/.gradle/caches/transforms-3/58817df185b1507fdc1b962bd53b95fe/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/chenming/.gradle/caches/transforms-3/58817df185b1507fdc1b962bd53b95fe/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/chenming/.gradle/caches/transforms-3/3b45348caf8d72fc8d7626a0db9119f7/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/chenming/.gradle/caches/transforms-3/3b45348caf8d72fc8d7626a0db9119f7/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.0] /Users/chenming/.gradle/caches/transforms-3/5688d8216807c714138b549c9bc51b0a/transformed/jetified-exoplayer-datasource-2.18.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.0] /Users/chenming/.gradle/caches/transforms-3/5688d8216807c714138b549c9bc51b0a/transformed/jetified-exoplayer-datasource-2.18.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.0] /Users/chenming/.gradle/caches/transforms-3/0d6a39a91e3cf1dcf71a4b7242583d40/transformed/jetified-exoplayer-extractor-2.18.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.0] /Users/chenming/.gradle/caches/transforms-3/0d6a39a91e3cf1dcf71a4b7242583d40/transformed/jetified-exoplayer-extractor-2.18.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.0] /Users/chenming/.gradle/caches/transforms-3/f7161059ce100327b56977d36b5f7f3d/transformed/jetified-exoplayer-decoder-2.18.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.0] /Users/chenming/.gradle/caches/transforms-3/f7161059ce100327b56977d36b5f7f3d/transformed/jetified-exoplayer-decoder-2.18.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.0] /Users/chenming/.gradle/caches/transforms-3/10f1beabbd69076df6b21e310d8b7539/transformed/jetified-exoplayer-database-2.18.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.0] /Users/chenming/.gradle/caches/transforms-3/10f1beabbd69076df6b21e310d8b7539/transformed/jetified-exoplayer-database-2.18.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.0] /Users/chenming/.gradle/caches/transforms-3/46edb6813ccecf06b50107249262d845/transformed/jetified-exoplayer-common-2.18.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.0] /Users/chenming/.gradle/caches/transforms-3/46edb6813ccecf06b50107249262d845/transformed/jetified-exoplayer-common-2.18.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/chenming/.gradle/caches/transforms-3/6919a6528de74a5adbe0524d511e0986/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/chenming/.gradle/caches/transforms-3/6919a6528de74a5adbe0524d511e0986/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/chenming/.gradle/caches/transforms-3/048641c8c88a81b244915f8353786142/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/chenming/.gradle/caches/transforms-3/048641c8c88a81b244915f8353786142/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/chenming/.gradle/caches/transforms-3/5af79c76ae29278de8dbb0803eeb785c/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/chenming/.gradle/caches/transforms-3/5af79c76ae29278de8dbb0803eeb785c/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/chenming/.gradle/caches/transforms-3/f273c064dc784f3a3428c93f9aa59c26/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/chenming/.gradle/caches/transforms-3/f273c064dc784f3a3428c93f9aa59c26/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/debug/AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from /Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/android/app/src/debug/AndroidManifest.xml:6:22-64
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/chenming/.gradle/caches/transforms-3/5c7b3164619702b71f29c8858c16f64e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/chenming/.gradle/caches/transforms-3/5c7b3164619702b71f29c8858c16f64e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/chenming/.gradle/caches/transforms-3/5c7b3164619702b71f29c8858c16f64e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/chenming/.gradle/caches/transforms-3/5c7b3164619702b71f29c8858c16f64e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/chenming/.gradle/caches/transforms-3/5c7b3164619702b71f29c8858c16f64e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/chenming/.gradle/caches/transforms-3/5c7b3164619702b71f29c8858c16f64e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.exoplayer:exoplayer-core:2.18.0] /Users/chenming/.gradle/caches/transforms-3/0213578322120146596e60129df937cd/transformed/jetified-exoplayer-core-2.18.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.0] /Users/chenming/.gradle/caches/transforms-3/46edb6813ccecf06b50107249262d845/transformed/jetified-exoplayer-common-2.18.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.0] /Users/chenming/.gradle/caches/transforms-3/46edb6813ccecf06b50107249262d845/transformed/jetified-exoplayer-common-2.18.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.exoplayer:exoplayer-core:2.18.0] /Users/chenming/.gradle/caches/transforms-3/0213578322120146596e60129df937cd/transformed/jetified-exoplayer-core-2.18.0/AndroidManifest.xml:24:22-76

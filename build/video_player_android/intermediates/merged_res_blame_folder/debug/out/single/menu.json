@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/build/video_player_android/intermediates/res/merged/debug/menu/example_menu2.xml",
+        "source": "/Users/chenming/.gradle/caches/transforms-3/e83615d88ae8279d6d4f60e8d9b34c9b/transformed/core-1.7.0/res/menu/example_menu2.xml"
+    },
+    {
+        "merged": "/Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/build/video_player_android/intermediates/res/merged/debug/menu/example_menu.xml",
+        "source": "/Users/chenming/.gradle/caches/transforms-3/e83615d88ae8279d6d4f60e8d9b34c9b/transformed/core-1.7.0/res/menu/example_menu.xml"
+    }
+]

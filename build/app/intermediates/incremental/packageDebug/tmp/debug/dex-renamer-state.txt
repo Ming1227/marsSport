@@ -1,0 +1,4 @@
+#Mon Aug 29 12:59:43 CST 2022
+base.0=/Users/chenming/Desktop/Ray-Speed-Flutter-App/ray_speed_sport/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml",
+            "map": [
+                {
+                    "source": "/Users/chenming/.gradle/caches/transforms-3/e83615d88ae8279d6d4f60e8d9b34c9b/transformed/core-1.7.0/res/values-vi/values-vi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "747",
+                        "endColumns": "100",
+                        "endOffsets": "843"
+                    }
+                },
+                {
+                    "source": "/Users/chenming/.gradle/caches/transforms-3/0213578322120146596e60129df937cd/transformed/jetified-exoplayer-core-2.18.0/res/values-vi/values-vi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,128,191,259,328,419,489,579,667",
+                        "endColumns": "72,62,67,68,90,69,89,87,79",
+                        "endOffsets": "123,186,254,323,414,484,574,662,742"
+                    }
+                }
+            ]
+        }
+    ]
+}

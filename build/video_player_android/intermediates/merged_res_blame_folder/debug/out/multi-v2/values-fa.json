@@ -1,0 +1,68 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/build/video_player_android/intermediates/res/merged/debug/values-fa/values-fa.xml",
+            "map": [
+                {
+                    "source": "/Users/chenming/.gradle/caches/transforms-3/e83615d88ae8279d6d4f60e8d9b34c9b/transformed/core-1.7.0/res/values-fa/values-fa.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "705",
+                        "endColumns": "100",
+                        "endOffsets": "801"
+                    }
+                },
+                {
+                    "source": "/Users/chenming/.gradle/caches/transforms-3/0213578322120146596e60129df937cd/transformed/jetified-exoplayer-core-2.18.0/res/values-fa/values-fa.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,122,183,250,310,388,463,552,640",
+                        "endColumns": "66,60,66,59,77,74,88,87,64",
+                        "endOffsets": "117,178,245,305,383,458,547,635,700"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/chenming/Desktop/Ray-Speed-Flutter-App/mars_sport/build/video_player_android/intermediates/incremental/mergeDebugResources/merged.dir/values-fa/values-fa.xml",
+            "map": [
+                {
+                    "source": "/Users/chenming/.gradle/caches/transforms-3/e83615d88ae8279d6d4f60e8d9b34c9b/transformed/core-1.7.0/res/values-fa/values-fa.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "705",
+                        "endColumns": "100",
+                        "endOffsets": "801"
+                    }
+                },
+                {
+                    "source": "/Users/chenming/.gradle/caches/transforms-3/0213578322120146596e60129df937cd/transformed/jetified-exoplayer-core-2.18.0/res/values-fa/values-fa.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,122,183,250,310,388,463,552,640",
+                        "endColumns": "66,60,66,59,77,74,88,87,64",
+                        "endOffsets": "117,178,245,305,383,458,547,635,700"
+                    }
+                }
+            ]
+        }
+    ]
+}
