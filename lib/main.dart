@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:mars_sport/network/api.dart';
+import 'package:mars_sport/network/base_ft_request.dart';
 import 'package:mars_sport/page/tabbar/tabbar.dart';
-
-import 'package:saturn_login/saturn_login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,8 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    _configLoginModule();
+    Api.initApi();
+    baseFTReq.init();
   }
 
   @override
@@ -29,13 +30,7 @@ class _MyAppState extends State<MyApp> {
         primarySwatch: Colors.blue,
         backgroundColor: Colors.white,
       ),
-      // home: const SCLoginPage(),
       home: const TabbarPage(),
     );
-  }
-
-  void _configLoginModule() {
-    final config = SCConfig.instance();
-    config.api.login = ((p0) => SCResult.success());
   }
 }

@@ -33,6 +33,12 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  dio: ^4.0.6
+  build_runner: ^2.2.1
+  json_annotation: ^4.7.0
+  json_serializable: ^6.5.0
+  path_provider: ^2.0.11
+  fluttertoast: ^8.0.9
   saturn_login:
     git:
       url: https://github.com/Ming1227/saturn_login.git
