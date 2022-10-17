@@ -40,7 +40,7 @@ class BaseFTRequest {
             .millisecondsSinceEpoch;
       }
       // 如果上一次请求的时间大于1天重新请求
-      if (timeDiffDays(lastTime)) reqSaveTeamList();
+      if (msTimeDiffDays(lastTime)) reqSaveTeamList();
     } else {
       reqSaveTeamList();
     }
@@ -75,7 +75,7 @@ class BaseFTRequest {
             .millisecondsSinceEpoch;
       }
       // 如果上一次请求的时间大于1天重新请求
-      if (timeDiffDays(lastTime)) reqSaveMatchEventList();
+      if (msTimeDiffDays(lastTime)) reqSaveMatchEventList();
     } else {
       reqSaveMatchEventList();
     }

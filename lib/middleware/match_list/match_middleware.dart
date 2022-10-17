@@ -6,6 +6,7 @@ import 'package:mars_sport/models/match_base_teams_model.dart';
 import 'package:mars_sport/models/match_list_model.dart';
 import 'package:mars_sport/network/api.dart';
 import 'package:mars_sport/utils/match_status_code.dart';
+import 'package:mars_sport/utils/ms_date.dart';
 import 'package:mars_sport/utils/ms_string.dart';
 
 FTMatchMiddleWare matchMiddle = FTMatchMiddleWare();
@@ -19,16 +20,16 @@ class FTMatchMiddleWare extends ChangeNotifier {
 
   // 请求当日赛事信息
   reqSaveCurDateMatchList() async {
-    // 临时使用本地数据调试
+    /// 临时使用本地数据调试
     final obj = await MSCacheManager.getData(MSCacheManager.ftMatchList);
     if (obj != Null && obj != null) {
       model = FTMatchListModel.fromJson(obj);
       transfromAndNotify();
       return;
     }
-    final result = await Api.matchList();
+    final result = await Api.matchList(date: msGetCurrentDay());
     if (result.code == 200) {
-      // 存当次请求成功时间
+      /// 存当次请求成功时间
       final curTimeMillis = DateTime.now().millisecondsSinceEpoch;
       MSCacheManager.saveData(
           MSCacheManager.ftMatchListLastTime, curTimeMillis);
@@ -105,8 +106,10 @@ class FTMatchMiddleWare extends ChangeNotifier {
   String? getBeginTime(List<dynamic> match) {
     final time = safeGetDataInMatch(3, match) as int?;
     if (time == null) return null;
-    final date = DateTime.fromMillisecondsSinceEpoch(time);
-    return date.hour.toString() + ':' + date.minute.toString();
+    final date = DateTime.fromMillisecondsSinceEpoch(time * 1000);
+    return date.hour.toString().padLeft(2, '0') +
+        ':' +
+        date.minute.toString().padLeft(2, '0');
   }
 
   String getStartTime(List<dynamic> match) {
@@ -120,8 +123,19 @@ class FTMatchMiddleWare extends ChangeNotifier {
       final start = safeGetDataInMatch(4, match) as int?;
       if (start == null) return '';
       final startDate = DateTime.fromMillisecondsSinceEpoch(start * 1000);
-      final difMin = DateTime.now().difference(startDate).inMinutes;
-      if (difMin == 0) return '';
+      var difMin = DateTime.now().difference(startDate).inMinutes;
+      if (status == 4) {
+        // 下半场
+        difMin += 45;
+      } else if (status == 5) {
+        // 加时赛
+        difMin += 90;
+      }
+      if (difMin == 0) {
+        return '';
+      } else if (difMin > 90) {
+        return '90+';
+      }
       return difMin.toString();
     }
   }

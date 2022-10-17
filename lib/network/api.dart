@@ -69,5 +69,10 @@ class Api {
   teams 球队列表字段说明
   teams->球队id
   */
-  static Future<SCResult> matchList() => get('api/sports/football/match/list');
+  static Future<SCResult> matchList({String? date}) {
+    var url = 'api/sports/football/match/list';
+    Map<String, String>? params;
+    if (date != null) params = {'date': date};
+    return get(url, data: params);
+  }
 }
